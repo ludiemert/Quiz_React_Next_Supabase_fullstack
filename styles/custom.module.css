@@ -1,0 +1,9 @@
+/* Header */
+
+.header {
+  z-index: 9000 !important;
+}
+
+.header-mobile {
+  z-index: 9999 !important;
+}
