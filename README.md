@@ -3,7 +3,7 @@
   and answers where users can choose their answers and the information is stored in Supabase, including name and e-mail.</h4>
 
 <h4 align="center"> 🥰Quiz - Company </h4>
-<h3 align="center"><img src="/public/img_proj/home_quiz_front.png" heigh="50%" width="50%"></h3>
+<h3 align="center"><img src="/public/img_proj/home_quiz_front.png" heigh="70%" width="70%"></h3>
 
 ---
 
@@ -50,7 +50,73 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 > Replace your_supabase_url and your_supabase_anon_key with the values provided by Supabase.
 
 ```
+---
 
+<h3 align="center"> ### 📋 Configure Supabase </h3>
+
+> Create a table in Supabase to store the quiz answers. Example structure:
+```bash
+create table responses (
+  id serial primary key,
+  name varchar(255) not null,
+  email varchar(255) not null,
+  answers jsonb not null
+);
+
+```
+
+<h4 align="center"> 🥰Quiz - table - SUPABASE </h4>
+<h3 align="center"><img src="/public/img_proj/home__table_02_back.png" heigh="70%" width="70%"></h3>
+
+
+---
+
+<h4 align="center"> 🥰Quiz - Running the Project </h4>
+
+> To start the development server, use the command:
+```bash
+npm run dev
+OR
+yarn dev
+```
+---
+
+<h4 align="center"> 🥰Quiz - FrontEnd Project </h4>
+
+<h3 align="center"><img src="/public/img_proj/quiz_1_front.png" heigh="70%" width="70%"></h3>
+
+---
+
+<h3 align="center"><img src="/public/img_proj/quiz_2_front.png" heigh="70%" width="70%"></h3>
+
+---
+
+<h3 align="center"><img src="/public/img_proj/quiz_3_front.png" heigh="70%" width="70%"></h3>
+
+---
+
+<h3 align="center"><img src="/public/img_proj/quiz_4_front.png" heigh="70%" width="70%"></h3>
+
+---
+
+<h4 align="center"> 🥰Quiz - BackEnd Project </h4>
+
+---
+
+<h3 align="center"><img src="/public/img_proj/home_01_back.png" heigh="70%" width="70%"></h3>
+
+
+---
+
+<h3 align="center"><img src="/public/img_proj/home__result_03_back.png" heigh="70%" width="70%"></h3>
+
+
+---
+
+<h3 align="center"><img src="/public/img_proj/home__table_02_back.png" heigh="70%" width="70%"></h3>
+
+---
+<h3 align="center"><img src="/public/img_proj/fim.png" heigh="70%" width="70%"></h3>
 
 ---
 
