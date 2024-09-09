@@ -35,7 +35,7 @@ git clone https://github.com/seu-usuario/Quiz_React_Next_Supabase_fullstack.git
 
 > Go to the project folder and install the dependencies
 ```bash
-cd cd Quiz_React_Next_Supabase_fullstack
+cd Quiz_React_Next_Supabase_fullstack
 npm install
 OR
 yarn install
